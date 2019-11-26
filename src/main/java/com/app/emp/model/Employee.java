@@ -1,5 +1,12 @@
 package com.app.emp.model;
 
+/**
+ * 
+ * @author BAK
+ *
+ *This is user defined response class. but it is not correct to use this class.
+ *Make sure to use the ResponseEntity class as return type which is provided by spring.
+ */
 public class Employee {
 
 	private Integer id;
